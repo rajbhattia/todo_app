@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+</head>
+<!-- <body onload="home()">
+<div style="color: rgb(184, 109, 109); text-align: center;"> 
+ <p id="name"></p> 
+</div> -->
+
+
+<div class="main">
+
+    <div class="head">
+    <input class="btn border inp_width" type="text" name="" id="inp" placeholder="Enter Todo"><br><br>
+    <i onclick="add_todo()" class="btn btn-primary fas fa-plus"></i>
+    <i  onclick="add_alltodo()" class="btn btn-danger fas fa-trash-alt"></i>
+  </div>
+<div class="bzn">
+<ol  type="1" id="unorder">
+<div id="btuns"></div>
+</div>
+</ol><br><br>
+
+
+   
+
+<button class="logout" onclick="logout()" > logout </button>
+</div>
+<script>"https://www.gstatic.com/firebasejs/9.6.3/firebase-app-compat.js"</script>
+<script>"https://www.gstatic.com/firebasejs/9.6.3/firebase-compat.js"</script>
+<script>"https://www.gstatic.com/firebasejs/9.6.3/firebase-auth-compat.js"</script>
+<!-- <script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.0/firebase-auth-compat.js"></script> -->
+<script>
+   const firebaseConfig = {
+    apiKey: "AIzaSyCzOdKlLL1SWK-TFKZyTTbto-Ls8e-mG54",
+    authDomain: "todo-923f7.firebaseapp.com",
+    projectId: "todo-923f7",
+    storageBucket: "todo-923f7.appspot.com",
+    messagingSenderId: "246999297334",
+    appId: "1:246999297334:web:ea3f8ccebc0c2e18c85797"
+  };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.edit_btn{
+    background-color: rgb(102, 224, 54);
+   
+    margin: 2px;
+    padding: 5px 4px;
+    position: relative;
+    /* left: 10%; */
+   
+
+}
+body{
+ 
+    font-family: cursive;
+
+}
+.head{
+    padding: 0%;
+    margin-bottom: 20px;
+}
+.bzn{
+  
+    width: 50%;
+}
+.main{
+  text-align: left;
+    margin: 20px auto;
+}
+
+.inp_width{
+    
+    width: 30%;
+   
+  
+}
+
+.list_item{
+
+    
+    text-align: left;
+    width: 900px;
+    border-bottom:black 1px solid;
+    border-top:black 1px solid;
+
+    background-color:rgb(95, 165, 156);
+}
+
+    
+.btns{
+    
+    width: 15%;
+ 
+}
+
+  .logout{
+      position: fixed;
+      top: 20px;
+      right: 50%;
+  }
